@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #52CEFC;
+    font-family: verdana, arial, helvetica;
+    height: 100px;
+}
+
+.navbar-brand {
+    padding-left: 300px;
+}
+
+h3 {
+    padding-top: 30px;
+}
+.navbar-nav {
+    padding-left: 750px;
+}
+
+.quem-somos {
+    background-color: #c6ced1;
+    color: #222222;
+}
+
+.margin {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.parceiros {
+    background-color: #70919c;
+}
+
+.bg-footer {
+    Background-color: black;
+    color: white;
+}
