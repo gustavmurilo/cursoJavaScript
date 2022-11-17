@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS - for in repetição</title>
+    <script>
+
+        //var listaConvidados = ['Jorge' , 'Jamilton' , 'José' , 'Ana' , 'Maria']
+
+        var listaConvidados = Array()
+
+        listaConvidados['a'] = 'Jorge'
+        listaConvidados[10] = 'Jamilton'
+        listaConvidados['zebra'] = 'José'
+        listaConvidados[-1] = 'Manria'
+        listaConvidados[true] = 'Ana'
+
+        console.log(listaConvidados)
+
+        for(var x in listaConvidados){
+            document.write('índice ' + x + ' valor ' + listaConvidados[x] + '<br />')
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
