@@ -5,8 +5,6 @@ var largura = 0
 function ajustaTamanhoPalcoJogo() {
     altura = window.innerHeight
     largura = window.innerWidth
-    
-    console.log(largura, altura )
 }
 
 ajustaTamanhoPalcoJogo()
@@ -33,10 +31,13 @@ function posicaoRandomica() {
     mosca.style.top = posicaoY + 'px'
     mosca.style.position = 'absolute'
     mosca.id = 'mosca'
+    mosca.onclick = function(){
+        this.remove()
+
+    }
     
     document.body.appendChild(mosca)
 
-    console.log(ladoAleatorio())
 }
 
 function tamanhoAleatorio() {
